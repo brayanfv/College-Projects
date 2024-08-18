@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="BrayanFV">
+    <meta name="description" content="O formulario para saber se voce e digno de contemplar o maior!!!">
+    <title>Você é Digno?</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Dignidade!!!</h1>
+        <h5>Será que você seria digno de contemplar o MONSTRO? </h5>
+        <nav id="Dignidade">
+
+            <a href="#pessoal">Informações Pessoais</a>
+            <a href="#login">Informações Login</a>
+            <a href="#skills">Skills</a>
+            <a href="#aposta">Investimento BLAZE</a>
+
+        </nav>
+    </header>
+    <h2>Teste se você é DIGNO</h2>
+<main>
+  <form >
+    <article>
+        <section id="pessoal">
+              <label for="fname">Primeiro Nome:</label><br>
+              <input type="text" id="fname" name="fname"><br><br>
+
+              <label for="lname">Sobrenome:</label><br>
+              <input type="text" id="lname" name="lname"><br><br>
+
+              <label for="Data">Data de Nascimento:</label><br>
+              <input type="date" id="Data" name="Data"><br><br>
+      </section>
+        <section id="login">
+              <label for="Email">Email:</label><br>
+              <input type="email" id="Email" name="Email"><br><br>
+
+              <label for="Senha">Senha:</label><br>
+              <input type="password" id="Senha" name="Senha"><br><br>
+
+              <label for="Telefone">Telefone:</label><br>
+              <input type="number" id="Telefone" name="Telefone"><br><br>
+
+      </section>
+        <section id="skills">
+
+               <label for="Observação">Observação:</label><br>
+               <input type="text" id="Observação" name="Observação"><br><br><br>
+
+               <label for="Linguas">Fluente em:</label><br>
+               <select>
+                <optgroup label="Linguas">
+                    <option>Português</option>
+                    <option>Inglês</option>
+                    <option>Espanhol</option>
+                    <option>Francês</option>
+                    <option>Japonês</option>
+
+                </optgroup>
+               </select>
+
+               <br><br><br><label for="Genero">Como você se indetifica:</label><br><br>
+               
+               <input type="radio" id="MASCULINO" name="Genero">
+               <label for="MASCULINO">MASCULINO</label> <br>
+               
+               <input type="radio" id="feminino" name="Genero">
+               <label for="feminino">feminino</label><br>
+               
+               <input type="radio" id="não binario" name="Genero">
+               <label for="não binario">não binario</label><br>
+               
+               <input type="radio" id="Prefiro não Comentar" name="Genero">
+               <label for="Prefiro não Comentar">Prefiro não Comentar</label><br>
+               
+               
+               <br><label for="Comida">Comida favorita:</label><br>
+               <select>
+                <optgroup label="Comida">
+                    
+                    <option>Pizza</option>
+                    <option>Hamburguer</option>
+                    <option>Feijoada</option>
+                    <option>Churrasco</option>
+                    <option>Sushi</option>
+
+                </optgroup>
+               </select>
+        </section>
+        <section id="aposta">
+            
+           <br><br><label for="Apostas na BLAZE">Apostas na BLAZE:</label>
+            <input type="range" id="Apostas na BLAZE" name="Apostas na BLAZE" min="5" max="1000000"><br><br>
+
+            <br><label for="time1">Qual seu time Brasileiro do coração:</label><br>
+            <input type="text" name="time1" id="time1" list="listatime1">
+             <datalist id="listatime1">
+                <option>São Paulo</option>
+                <option>Palmeiras</option>
+                <option>Santos</option>
+                <option>Flamengo</option>
+                <option>Criciuma</option>
+            </datalist>
+
+            <br><label for="time2">Qual seu time Europeu do coração:</label><br>
+            <input type="text" name="time2" id="time2" list="listatime2">
+             <datalist id="listatime2">
+                <option>Real Madrid</option>
+                <option>Barcelona</option>
+                <option>Juventos</option>
+                <option>Manchester City</option>
+                <option>PSG</option>
+            </datalist>
+
+        </section>
+   </article>
+
+      <br><br><input type="submit" value="Cadastrar">
+
+  </form> 
+</main>
+</body>
+</html>
