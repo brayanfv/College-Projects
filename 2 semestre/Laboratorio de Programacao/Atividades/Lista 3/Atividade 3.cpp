@@ -1,20 +1,20 @@
 #include<stdio.h>
 
-void soma(int a, int b);
+int soma(int a, int b);
 int main()
 {
 
-  int x , y;
+  int x , y, r;
   printf("Informe um numero: ");
   scanf("%d", &x);
   printf("Informe um numero: ");
   scanf("%d", &y);  
 
-soma(x ,y);
-
+r = soma(x ,y);
+printf("%d", r);
 }
 
-void soma(int a, int b)
+int soma(int a, int b)
 {
   
   int i;
@@ -27,7 +27,7 @@ void soma(int a, int b)
 
   }
 
- printf("%d", somar);
+ return somar;
 
 
 }

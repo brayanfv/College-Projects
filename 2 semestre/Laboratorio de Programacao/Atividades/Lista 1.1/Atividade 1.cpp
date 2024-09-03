@@ -4,7 +4,7 @@ main()
  int i, num[100], cont=0;
  for(i=0; 1<100; i++)
  {
-   pritnf(" Informe um numero: ");
+   printf(" Informe um numero: ");
    scanf(" %d", &num[i]);
 
    if(num[i]<0)

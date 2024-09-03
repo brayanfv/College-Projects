@@ -16,7 +16,7 @@ func(x,y);
 void func(int a, int b)
 {
   int i, mult;
-  mult= a*b;
-  printf("A multiplicacao e :%d", mult);
+  mult = a * b;
+  printf("A multiplicacao e : %d", mult);
 
 }
