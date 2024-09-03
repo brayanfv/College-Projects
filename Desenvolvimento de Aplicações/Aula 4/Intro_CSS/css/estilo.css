@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+div{
+    color:red;
+}
+
+
+
+/* Regra para Class */
+
+/*.titulo{ 
+    color:blueviolet;
+}
+*/
+
+/* Regra para id */
+
+/*
+#topo{
+      color:blue;
+}
+*/
+
+
+
+  /* .tituloEspecial{ 
+
+  font-size: 36px;
+  background-color: black;
+  padding: 20px; move toda a margem para o lado
+}  */
+ 
+
+
+body{
+
+    background-color: #000;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+
+p, ul{
+    color: #ffffff;
+    margin: 5px;
+}
+
+ul{
+
+    list-style: none;
+    background-color: #22ffaa;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+li{
+    background-color: chocolate;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 12px;
+    width: 130px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px 8px #222222;
+}
+
+#topo p, #nav p, #principal p:first-child, aside p:first-child, #rodape p{
+
+    color: #22ffaa;
+    font-size: 18px;
+    background-color: brown;
+    
+}
+
+#topo{
+
+    margin-bottom: 5px;
+}
