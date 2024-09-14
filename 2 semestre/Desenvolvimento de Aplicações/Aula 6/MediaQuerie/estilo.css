@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	font: 16px/1.2 sans-serif;
+	margin:0;
+	padding:0;
+	
+	
+}
+#tudo {
+	
+	max-width:1400px;
+	margin:0 auto;
+}
+
+#topo{
+    
+  height:60px;	
+	padding-top:1px;
+	background:#c60;
+	
+}
+
+#nav{
+    
+  width:20%;	
+  float:left;
+  background:#9cf;
+    
+}
+
+#principal{
+    
+  width:60%;
+   
+	float:left;
+	background:#ffe;
+    
+  
+   
+}
+
+#aux{
+    
+  width:18%;
+	float:right;
+	background:#9c3;
+   
+}
+
+#rodape{
+	height:30px;
+	clear: both;
+	background:#0c3;	
+	
+}
+
+
+@media screen and (max-width:1200px)
+and (min-width:900px){
+	
+	#topo {
+
+		background-color: black;
+
+
+	}
+
+
+}
+
+@media screen and (max-width:899px) and (min-width:430px){
+
+	#aux{
+
+		float: left;
+		
+
+	}
+
+	#principal{
+
+		width: 82%;
+		float: right;
+	}
+	
+	#tudo{
+
+		background-color: red;
+	}
+
+}
+
+@media screen and (max-width: 459px)  {
+
+	#aux{
+
+		float:left;
+		display: none;
+		
+	}
+	
+	#principal, #nax, #aux{
+
+		width: 100%;
+		float: left;
+	}
+
+	#principal{
+
+		width: 80%;
+		margin-left: 40px;
+		text-align: justify;
+	}
+
+	#tudo{
+
+		background-color: none;
+	}
+
+	#nav{
+
+		padding-bottom: 50px;
+		
+		
+	}
+
+	ul li{
+
+		background-color: #0c3;
+		list-style: none;
+		margin-bottom: 22px;
+		padding: 9px;
+		width: 310px;
+		font-size: 20px;
+		font-weight: bold;
+		border-radius: 12px;
+		box-shadow: 2px 3px 8px #555;
+	}
+}
+
+
+
