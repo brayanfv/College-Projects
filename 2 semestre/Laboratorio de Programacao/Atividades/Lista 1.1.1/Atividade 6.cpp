@@ -7,7 +7,7 @@ main()
   {
   for(j=0; j<5; j++)
   {
-    pritnf("Informe um numero: ");
+    printf("Informe um numero: ");
     scanf("%d", &m[i][j]);
 
   }
@@ -18,7 +18,7 @@ main()
   {
   for(j=0; j<5; j++)
   {
-    pritnf("Informe um numero: ");
+    printf("Informe um numero: ");
     scanf("%d", &p[i][j]);
     s[i][j]= m[i][j] + p[i][j];
 

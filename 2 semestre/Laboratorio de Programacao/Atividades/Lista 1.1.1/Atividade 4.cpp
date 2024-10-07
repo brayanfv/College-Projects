@@ -1,7 +1,7 @@
 #include<stdio.h>
 main()
 {
-	int i, A[5], menor=999999,maior=-99999;
+	int i, A[5], menor=99999,maior=-99999;
 	float soma=0;
 	for(i=0;i<5;i++)
 	{

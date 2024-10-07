@@ -16,7 +16,7 @@ main()
         if(A[i] < menor)
         printf("O indice do numero negativo e: %d\t", i-1);
         else
-        Printf("Negativo não encontrado\n");
+        printf("Negativo não encontrado\n");
 
     }
 

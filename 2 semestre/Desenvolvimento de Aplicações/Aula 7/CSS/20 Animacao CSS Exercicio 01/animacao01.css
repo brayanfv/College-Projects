@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	background-image:url(img/009.jpg);
+}
+
+
+
+div{
+	
+	float:left;	
+	border:solid 4px;
+	margin:20px;	
+	padding:20px ;
+	background-color: purple;
+	font-size:28px;	
+	font-family:Verdana, Geneva, sans-serif;
+	font:Verdana;	
+	font-weight:bold;	
+    box-shadow: 8px 7px 15px #444;
+	cursor: pointer;
+	/* transition: 0.5s; */
+	
+}
+
+/* div:hover{
+
+	background-color: pink;
+	box-shadow: 3px 3px 4px #222;
+	color: white;
+	transform: scale(0.9);	
+} */
+
+@keyframes animaA{
+	from{background-color: purple;}
+	to{background-color: brown;}
+}
+
+@keyframes animaB{
+    0% {background-color: blue; 
+		left: 0px; 
+		top: 0px;
+	    transform: rotate(0deg);
+	   }
+
+	  
+		25% {background-color: green; 
+			left: -200px; 
+			top: 0px;
+			transform: rotate(15deg);
+		   }
+
+		   50% {background-color: orange; 
+			left: -200px; 
+			top: 100px;
+			transform: rotate(-45deg);
+		   }
+
+		   75% {background-color: blueviolet; 
+			left: 0px; 
+			top: 100px;
+			transform: rotate(88deg);
+		   }
+
+		   100% {background-color: black; 
+			left: 0px; 
+			top: 0px;
+			transform: rotate(0deg);
+		   }
+}
+
+#dois{
+
+    animation-duration: 5s;
+	animation-name: animaA;	
+
+}
+
+
+#tres{
+
+	animation-duration: 5s;
+	animation-name: animaA;
+	/* animation-delay: 2s; */
+	animation-iteration-count: 5;
+
+}
+
+#quatro{
+
+    position: relative;
+	left: 0px;
+	top: 0px;
+	animation-name: animaB;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;	
+
+}
